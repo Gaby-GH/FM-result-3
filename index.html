@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="main_block">
+    <div id="block_one">
+
+      <div id="block_one_block_day">
+        <p id="block_one_p_day" class="block_one_p">DAY</p>
+        <input type="text" placeholder="DD" class="input_number" id="input_day">
+        <p class="error_message" id="error_day">This field is required</p>
+      </div>
+
+      <div id="block_one_block_month">
+        <p id="block_one_p_month" class="block_one_p">MONTH</p> 
+        <input type="text" placeholder="MM" class="input_number" id="input_month">
+        <p class="error_message" id="error_month">This field is required</p>
+      </div>
+
+      <div id="block_one_block_year">
+        <p id="block_one_p_year" class="block_one_p">YEAR</p>
+        <input type="text" placeholder="YYYY" class="input_number" id="input_year">
+        <p class="error_message" id="error_year">This field is required</p>
+      </div>
+
+      <button id="block_one_button"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="33" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+
+    </div>
+
+    <div id="block_two">
+      <div class="block_block_two">
+        <p id="p_years" class="block_two_tiret result">--</p> <p class="result dmy">years</p>
+      </div>
+
+      <div class="block_block_two">
+        <p id="p_months" class="block_two_tiret result">--</p> <p class="result dmy">months</p>
+      </div>
+      
+      <div class="block_block_two">
+        <p id="p_days" class="block_two_tiret result">--</p> <p class="result dmy">days</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>

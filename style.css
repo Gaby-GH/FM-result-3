@@ -1,0 +1,194 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+
+#main_block{
+    background-color: white;
+    width: 440px;
+    height: 335px;
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 15px 130px 15px;
+}
+
+#block_one{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid hsl(0, 0%, 86%) 1px;
+}
+
+.block_one_p{
+    color: hsl(0, 1%, 44%);
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
+}
+
+.input_number{
+    border: solid 1px hsl(0, 0%, 86%);
+    border-radius: 5px;
+    height: 38px;
+    width: 84px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.error_message{
+    font-size: 8px;
+    font-style: italic;
+    color: hsl(0, 100%, 67%);
+    margin-top: 6px;
+    opacity: 0;
+}
+
+#block_one_button{
+    position: relative;
+    background-color: hsl(259, 100%, 65%);
+    height: 65px;
+    width: 65px;
+    border: 0px;
+    border-radius: 100%;
+    top: 66px;
+    left: 5px;
+}
+
+
+#block_one_button:hover{
+    background-color: hsl(0, 0%, 8%); 
+}
+
+.block_block_two{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.block_two_tiret{
+    color: hsl(259, 100%, 65%);
+}
+
+.result{
+    font-size: 52px;
+    margin: 0px;
+    font-weight: 800;
+}
+
+#block_two{
+    margin-left: 12px;
+}
